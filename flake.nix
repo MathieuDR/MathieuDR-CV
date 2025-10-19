@@ -1,5 +1,5 @@
 {
-  description = "A Typst project";
+  description = "A Typst project that uses Typst packages";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -48,18 +48,32 @@
         ];
       };
 
+      unstable_typstPackages = [
+        {
+          name = "cetz";
+          version = "0.3.4";
+          hash = "sha256-5w3UYRUSdi4hCvAjrp9HslzrUw7BhgDdeCiDRHGvqd4=";
+        }
+        # Required by cetz
+        {
+          name = "oxifmt";
+          version = "0.2.1";
+          hash = "sha256-8PNPa9TGFybMZ1uuJwb5ET0WGIInmIgg8h24BmdfxlU=";
+        }
+      ];
+
       # Compile a Typst project, *without* copying the result
       # to the current directory
       build-drv = typixLib.buildTypstProject (commonArgs
         // {
-          inherit src;
+          inherit src unstable_typstPackages;
         });
 
       # Compile a Typst project, and then copy the result
       # to the current directory
       build-script = typixLib.buildTypstProjectLocal (commonArgs
         // {
-          inherit src;
+          inherit src unstable_typstPackages;
         });
 
       # Watch a project and recompile on changes
