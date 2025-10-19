@@ -1,8 +1,3 @@
-#import "@preview/cetz:0.3.4"
-
-#cetz.canvas({
-  import cetz.draw: *
-
-  circle((0, 0))
-  line((0, 0), (2, 1))
-})
+#let lang = sys.inputs.at("lang", default: "en")
+#import "@preview/kiresume:0.1.17": resume
+#resume(..json("data/" + lang + ".json"))
