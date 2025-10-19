@@ -19,9 +19,10 @@
   /// -> array | dictionary
   items: (),
   /// -> str | none
-  url: none
+  url: none,
+  /// -> bool
+  page-break: false
 ) = {
-
   let cells = ()
 
   if (title != none) {
@@ -76,5 +77,9 @@
     for (key, value) in items {
       [- *#key:* #value]
     }
+  }
+
+  if page-break {
+    pagebreak()
   }
 }
