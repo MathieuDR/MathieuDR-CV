@@ -1,22 +1,22 @@
 {
-  "candidate-name": "John Doe NL",
-  "job-title": "Web Developer",
+  "candidate-name": "Mathieu De Raedt",
+  "job-title": "Senior Software Engineer",
   "links": [
     {
-      "display": "john.doe@example.com",
-      "destination": "mailto:john.doe@example.com"
+      "display": "mathieu@deraedt.dev",
+      "destination": "mailto:mathieu@deraedt.dev"
     },
     {
-      "display": "github.com/octocat",
-      "destination": "https://github.com/octocat"
+      "display": "github.com/MathieuDR",
+      "destination": "https://github.com/mathieudr"
     },
     {
-      "display": "linkedin.com/in/johndoe",
-      "destination": "https://linkedin.com/in/johndoe"
+      "display": "linkedin.com/in/mathieuderaedt",
+      "destination": "https://linkedin.com/in/mathieuderaedt"
     },
     {
-      "display": "github.blog",
-      "destination": "https://github.blog"
+      "display": "Digital garden",
+      "destination": "https://mathieu.deraedt.dev"
     }
   ],
   "sections": [
@@ -24,21 +24,7 @@
       "title": "Summary",
       "subsections": [
         {
-          "text": "Creative and detail-oriented web developer with a passion for building user-friendly and responsive websites. Skilled in modern web technologies and committed to delivering high-quality solutions. Adept at collaborating with cross-functional teams to achieve project goals and exceed client expectations."
-        }
-      ]
-    },
-    {
-      "title": "Skills",
-      "subsections": [
-        {
-          "items": {
-            "Programming Languages": "JavaScript, HTML, CSS, Python, PHP, TypeScript",
-            "Frameworks and Libraries": "React, Angular, Vue.js, Node.js, Django, Tailwind CSS",
-            "Tools and Platforms": "Git, Webpack, Docker, AWS, Firebase, Jenkins",
-            "Databases": "MySQL, PostgreSQL, MongoDB, SQLite",
-            "Development Practices": "Agile, Test-Driven Development, Continuous Integration, Code Reviews"
-          }
+          "text": "A Senior Software Engineer with 8 years of professional experience. Passionate about functional programming and the Elixir ecosystem, obsessed with Linux, Nix, software principles like „Delightfully boring“ and taking atomic notes. Proven track record of delivering maintainable, simple and robust solutions across international remote teams."
         }
       ]
     },
@@ -46,83 +32,229 @@
       "title": "Work Experience",
       "subsections": [
         {
-          "title": "Frontend Developer",
-          "subtitle": "Tech Solutions Inc.",
-          "location": "New York",
+          "title": "Senior Backend Engineer, Elixir",
+          "subtitle": "7Mind",
+          "location": "Remote, Germany",
           "from": {
-            "year": 2022,
-            "month": 6
-          },
-          "items": [
-            "Developed and maintained responsive web applications using React and Redux.",
-            "Collaborated with designers and backend developers to create seamless user experiences.",
-            "Optimized website performance, reducing load times by 30%.",
-            "Implemented accessibility best practices to ensure compliance with WCAG standards.",
-            "Mentored junior developers and conducted code reviews to maintain code quality."
-          ]
-        },
-        {
-          "title": "Junior Web Developer",
-          "subtitle": "Creative Web Studio",
-          "location": "San Francisco",
-          "from": {
-            "year": 2020,
-            "month": 8
-          },
-          "to": {
-            "year": 2022,
+            "year": 2023,
             "month": 5
           },
           "items": [
-            "Built and maintained client websites using HTML, CSS, and JavaScript.",
-            "Implemented SEO best practices to improve website rankings.",
-            "Provided technical support and troubleshooting for website issues.",
-            "Collaborated with clients to gather requirements and deliver tailored solutions.",
-            "Created reusable components to streamline development processes."
+            "Successfully shipped multiple deliverables using the BEAM ecosystem and Elixir",
+            "Launched two new mobile applications working with cross-functional teams",
+            "Contributed to the transformation from microservices architecture to a more maintainable modulith",
+            "Applied and refined personal work principles like \"Rule of Least Surprise\" and \"Delightfully Boring\"",
+            "Initiated and led team optimization efforts, collaborating closely with team members and team leads to introduce shape-up ceremonies",
+            "Introduced and integrated new technologies and working methodologies to enhance team alignment across squads",
+            "Technologies: Elixir, Phoenix, Ecto, Typespec, Docker, Kubernetes, Nix, AWS, Google Cloud, Rudderstack, Algolia & Contentful"
           ]
-        }
-      ]
-    },
-    {
-      "title": "Education",
-      "subsections": [
+        },
         {
-          "title": "Bachelor of Science in Computer Science",
-          "subtitle": "State University",
+          "title": "Senior Software Engineer",
+          "subtitle": "Plain Concepts",
+          "location": "Remote, Germany",
           "from": {
-            "year": 2016,
+            "year": 2021,
+            "month": 5
+          },
+          "to": {
+            "year": 2023,
+            "month": 4
+          },
+          "items": [
+            "Holistic technical project management",
+            "Mentoring junior team members",
+            "Migrating and expanding a microservice architecture",
+            "Software development in various projects",
+            "Collaboration with Microsoft to facilitate innovative solutions and digital transformation",
+            "Technologies: .NET, C#, Azure, React, SQL, Docker, Kubernetes, CosmosDB, Azure Cloud, Salesforce"
+          ]
+        },
+        {
+          "title": "Techincal co-founder",
+          "subtitle": "Srcrr & IUser",
+          "location": "Remote, Germany",
+          "from": {
+            "year": 2020,
+            "month": 10
+          },
+          "to": {
+            "year": 2021,
+            "month": 7
+          },
+          "items": [
+            "Entrepreneurial responsibility and management",
+            "Lead development in retrieving and consolidating data from various sources",
+            "Technologies: Blazor, .NET 5 Core, NodeJS, Angular, Typescript"
+          ]
+        },
+        {
+          "title": "Full Stack .NET Developer & Lead Software Engineer",
+          "subtitle": "Caldr",
+          "location": "Zele, Belgium",
+          "from": {
+            "year": 2020,
+            "month": 1
+          },
+          "to": {
+            "year": 2020,
+            "month": 10
+          },
+          "items": [
+            "Software development for efficient and dynamic scheduling of appointments with care providers",
+            "Enable communication between care providers and patients",
+            "Started as a full stack developer and later took over the project as a lead developer",
+            "Technologies: .NET Core, SignalR, MSSQL, VueJS, SASS"
+          ]
+        },
+        {
+          "title": "Full Stack .NET Developer",
+          "subtitle": "Casius",
+          "location": "Lokeren, Belgium",
+          "from": {
+            "year": 2017,
             "month": 9
           },
           "to": {
             "year": 2020,
-            "month": 6
+            "month": 1
           },
           "items": [
-            "Graduated with honors, specializing in web development and user experience design.",
-            "Completed a senior capstone project focused on building a responsive e-commerce platform.",
-            "Active member of the Computer Science Club, organizing coding workshops and hackathons."
+            "Software Development for new projects",
+            "Maintaining and updating legacy projects",
+            "Technologies: .NET Core 2.1, Entity Framework Core, NUnit, VueJS, SASS, Hangfire, Scrum"
+          ]
+        },
+        {
+          "title": "Full Stack .NET Developer",
+          "subtitle": "HumanICT",
+          "location": "Aalst, Belgium",
+          "from": {
+            "year": 2015,
+            "month": 9
+          },
+          "to": {
+            "year": 2017,
+            "month": 9
+          },
+          "items": [
+            "Collaboration on internal projects related to pricing and invoicing of medical performances for health insurances, using Belgian government services",
+            "Technologies: ASP.NET MVC, Razor, MSSQL, CSS3, SOAP, WCF"
+          ]
+        },
+        {
+          "title": "Internship",
+          "subtitle": "The Liverpool Office Ltd",
+          "location": "Liverpool, United Kingdom",
+          "from": {
+            "year": 2015,
+            "month": 2
+          },
+          "to": {
+            "year": 2015,
+            "month": 5
+          },
+          "items": [
+            "Internship for New Media- and Communication technology",
+            "Creating a mobile game in Unity3D from ideation to realization"
           ]
         }
       ]
     },
     {
-      "title": "Projects",
+      "title": "Academic Career",
       "subsections": [
         {
-          "title": "Portfolio Website",
-          "subtitle": "Personal Project",
+          "title": "Bachelors Degree in Multimedia- and Communication Technology",
+          "subtitle": "Howest Hogeschool West-Vlaanderen",
+          "location": "Kortrijk, Belgium",
+          "from": {
+            "year": 2012,
+            "month": 9
+          },
+          "to": {
+            "year": 2015,
+            "month": 7
+          },
           "items": [
-            "Designed and developed a personal portfolio website to showcase projects and skills.",
-            "Implemented a blog section using a headless CMS for content management.",
-            "Optimized for performance and SEO, achieving a 95+ score on Google Lighthouse."
+            "Comprehensive program combining programming, web development, and communication technologies with hands-on projects"
           ]
+        },
+        {
+          "title": "TSO 3rd grade Industrial Information and Communication Technology",
+          "subtitle": "V.T.I. Sint-Laurentius",
+          "location": "Lokeren, Belgium",
+          "from": {
+            "year": 2006,
+            "month": 9
+          },
+          "to": {
+            "year": 2012,
+            "month": 7
+          },
+          "items": [
+            "Technical secondary education providing strong foundations in electronics, programming languages (C#, C++, Assembler), and electrical systems."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Expertise highlights",
+      "subsections": [
+        {
+          "items": {
+            "Programming Languages": "Elixir, Phoenix, LiveView, C#, ASP.NET Core, NodeJS",
+            "DevOps": "Nix, Linux, Docker, Kubernetes",
+            "Databases": "PostgreSQL, MSSQL, NoSQL",
+            "Cloud providers": "Microsoft Azure, Google Cloud & Amazon Web Services (AWS)"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Languages",
+      "subsections": [
+        {
+          "items": {
+            "Dutch": "Native",
+            "English": "Fluent",
+            "German": "Professional"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Project Highlights",
+      "subsections": [
+        {
+          "title": "Digital Garden",
+          "subtitle": "My corner of the internet where I try to put atomic notes in a Zettelkasten-esque way.",
+          "items": []
+        },
+        {
+          "title": "Nix Projects",
+          "subtitle": "Setting up servers, homeservers, daily drivers and IDEs using Nix",
+          "items": []
+        },
+        {
+          "title": "Readdeck Highlight exporter",
+          "subtitle": "Exporting my hightlights reading web-articles directly into my notes",
+          "items": []
+        }
+      ]
+    },
+    {
+      "title": "References",
+      "subsections": [
+        {
+          "text": "Please contact me for reference contact details."
         }
       ]
     }
   ],
   "style": {
     "font": "Noto Sans",
-    "font-size": "9pt",
+    "font-size": "12pt",
     "header-color": "#000035",
     "divider-color": "#800000"
   }

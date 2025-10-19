@@ -15,7 +15,9 @@ build-nl:
 
 # Build all language versions
 build-all:
-    nix run .#build-all
+    nix run .#build-en
+    nix run .#build-de
+    nix run .#build-nl
 
 # Watch for changes (English)
 watch:

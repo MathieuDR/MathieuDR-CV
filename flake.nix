@@ -10,12 +10,6 @@
     };
 
     flake-utils.url = "github:numtide/flake-utils";
-
-    # Example of downloading icons from a non-flake source
-    # font-awesome = {
-    #   url = "github:FortAwesome/Font-Awesome";
-    #   flake = false;
-    # };
   };
 
   outputs = inputs @ {
@@ -29,177 +23,110 @@
       inherit (pkgs) lib;
 
       typixLib = typix.lib.${system};
-      date = builtins.substring 0 10 (builtins.readFile "${pkgs.runCommand "date" {} "date -I > $out"}");
+
       src = lib.fileset.toSource {
         root = ./.;
         fileset = lib.fileset.unions [
-          ./main.typ
+          ./MathieuDeRaedt.typ
+          ./template
           ./data
         ];
       };
 
-      # src = typixLib.cleanTypstSource ./.;
-
       commonArgs = {
-        typstSource = "main.typ";
-
-        fontPaths = [
-          # Add paths to fonts here
-          # "${pkgs.roboto}/share/fonts/truetype"
-        ];
-
-        virtualPaths = [
-          # Add paths that must be locally accessible to typst here
-          # {
-          #   dest = "icons";
-          #   src = "${inputs.font-awesome}/svgs/regular";
-          # }
-        ];
+        typstSource = "MathieuDeRaedt.typ";
+        fontPaths = [];
+        virtualPaths = [];
       };
 
       unstable_typstPackages = [
-        {
-          name = "kiresume";
-          version = "0.1.17";
-          hash = "sha256-waedSOjHgbw/ci+5ScAfeX/PnpklGExO9A3vQkTx0HU=";
-        }
       ];
 
-      # Compile a Typst project, *without* copying the result
-      # to the current directory
-      # build-drv = typixLib.buildTypstProject (commonArgs
-      #   // {
-      #     inherit src unstable_typstPackages;
-      #   });
+      # Get dynamic date for filename
+      date = builtins.substring 0 10 (
+        builtins.readFile (
+          pkgs.runCommand "get-date" {} "date -I > $out"
+        )
+      );
 
-      # Compile a Typst project, and then copy the result
-      # to the current directory
-      # build-script = typixLib.buildTypstProjectLocal (commonArgs
-      #   // {
-      #     inherit src unstable_typstPackages;
-      #   });
-
-      # Watch a project and recompile on changes
-      # watch-script = typixLib.watchTypstProject commonArgs;
-
-      # Function to build for a specific language with custom name
-      buildForLanguage = lang: let
-        rawBuild = typixLib.buildTypstProject (commonArgs
+      # Function to build for a specific language (for nix build)
+      buildForLanguage = lang:
+        typixLib.buildTypstProject (commonArgs
           // {
-            src = src;
-            inherit unstable_typstPackages;
+            inherit src unstable_typstPackages;
             typstOpts = {
-              input = {inherit lang;};
+              input = ["lang=${lang}"];
             };
           });
 
-        # Rename the output
-        fileName = "MathieuDeRaedt_${date}_${lang}.pdf";
-      in
-        pkgs.runCommand "resume-${lang}" {} ''
-          mkdir -p $out
-          cp ${rawBuild}/main.pdf $out/${fileName}
-        '';
-      # Individual language builds
+      # Function to create local build script for a language
+      buildScriptFor = lang:
+        typixLib.buildTypstProjectLocal (commonArgs
+          // {
+            inherit src unstable_typstPackages;
+            typstOpts = {
+              input = ["lang=${lang}"];
+            };
+            typstOutput = "MathieuDeRaedt_${date}_${lib.toUpper lang}.pdf";
+          });
+
+      # Individual language builds (for nix build .#en)
       builds = {
         en = buildForLanguage "en";
         de = buildForLanguage "de";
         nl = buildForLanguage "nl";
       };
 
-      # Build all languages into one derivation
-      build-all = pkgs.runCommand "resume-all-languages" {} ''
-        mkdir -p $out
-        cp ${builds.en}/*.pdf $out/
-        cp ${builds.de}/*.pdf $out/
-        cp ${builds.nl}/*.pdf $out/
-      '';
-
-      # Local build scripts for each language
-      buildScriptFor = lang: let
-        build = builds.${lang};
-      in
-        pkgs.writeShellApplication {
-          name = "build-resume-${lang}";
-          runtimeInputs = [pkgs.coreutils];
-          text = ''
-            cp ${build}/*.pdf .
-            echo "Built resume for ${lang}: $(ls MathieuDeRaedt_*_${lang}.pdf)"
-          '';
-        };
+      # Build scripts for local use (for nix run .#build-en)
+      buildScripts = {
+        en = buildScriptFor "en";
+        de = buildScriptFor "de";
+        nl = buildScriptFor "nl";
+      };
 
       watch-script = typixLib.watchTypstProject (commonArgs
         // {
           typstOpts = {
-            input = {lang = "en";};
+            input = ["lang=en"];
           };
         });
     in {
       packages = {
-        default = build-all;
+        default = builds.en;
         en = builds.en;
         de = builds.de;
         nl = builds.nl;
       };
-      # checks = {
-      #     inherit build-en build-nl build-de build-all watch-script
-      #     };
+
+      checks = {
+        build-en = builds.en;
+        build-de = builds.de;
+        build-nl = builds.nl;
+      };
 
       apps = rec {
         default = watch;
 
         # Build commands for each language
         build-en = flake-utils.lib.mkApp {
-          drv = buildScriptFor "en";
+          drv = buildScripts.en;
         };
         build-de = flake-utils.lib.mkApp {
-          drv = buildScriptFor "de";
+          drv = buildScripts.de;
         };
         build-nl = flake-utils.lib.mkApp {
-          drv = buildScriptFor "nl";
-        };
-
-        # Build all languages
-        build-all = flake-utils.lib.mkApp {
-          drv = pkgs.writeShellApplication {
-            name = "build-all-resumes";
-            runtimeInputs = [pkgs.coreutils];
-            text = ''
-              cp ${build-all}/*.pdf .
-              echo "Built all resumes:"
-              ls -1 MathieuDeRaedt_*.pdf
-            '';
-          };
+          drv = buildScripts.nl;
         };
 
         watch = flake-utils.lib.mkApp {
           drv = watch-script;
         };
       };
-      # checks = {
-      #   inherit build-en build-de build-nl watch-script;
-      # };
-
-      # packages.default = build-drv;
-
-      # apps = rec {
-      #   default = watch;
-      #   build = flake-utils.lib.mkApp {
-      #     drv = build-script;
-      #   };
-      #   watch = flake-utils.lib.mkApp {
-      #     drv = watch-script;
-      #   };
-      # };
 
       devShells.default = typixLib.devShell {
         inherit (commonArgs) fontPaths virtualPaths;
         packages = [
-          # WARNING: Don't run `typst-build` directly, instead use `nix run .#build`
-          # See https://github.com/loqusion/typix/issues/2
-          # build-script
           watch-script
-          # More packages can be added here, like typstfmt
           pkgs.typstfmt
           pkgs.just
         ];
