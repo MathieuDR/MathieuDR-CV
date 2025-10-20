@@ -22,18 +22,19 @@
 #let range(
   /// -> date | none
   from: none, 
-  /// -> date | none
+  /// -> date | none | str
   to: none
 ) = {
-  if from == none {
+  let d_from = date(..from)
+  if d_from == none {
     panic("range.from must not be none - please pass a valid date")
   }
 
   ( 
-    from
+    d_from
     + " " 
     + $dash.em$ 
     + " " 
-    + { if to == "Jan 0000" { "Present" } else { to } }
+    + { if(type(to) == str) { [#to] } else { date(..to) } }
   )
 }

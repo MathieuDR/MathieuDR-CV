@@ -10,7 +10,7 @@
   subtitle: none,
   /// -> date | none
   from: none,
-  /// -> date | none
+  /// -> date | none | str
   to: none,
   /// -> str | none
   location: none,
@@ -40,7 +40,7 @@
 
   if (from != none) {
     cells.push(
-      grid.cell(align: right)[#range(from: date(..from), to: date(..to))]
+      grid.cell(align: right)[#range(from: from, to: to)]
     )
   }
 
