@@ -137,7 +137,8 @@
           "items": [
             "Collaboration on internal projects related to pricing and invoicing of medical performances for health insurances, using Belgian government services",
             "Technologies: ASP.NET MVC, Razor, MSSQL, CSS3, SOAP, WCF"
-          ]
+          ],
+          "page-break": true
         },
         {
           "title": "Internship",
@@ -154,8 +155,7 @@
           "items": [
             "Internship for New Media- and Communication technology",
             "Creating a mobile game in Unity3D from ideation to realization"
-          ],
-          "page-break": true
+          ]
         }
       ]
     },
