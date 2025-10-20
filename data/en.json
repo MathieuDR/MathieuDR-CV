@@ -35,7 +35,7 @@
             "year": 2023,
             "month": 5
           },
-          "to": "Present",
+          "to": "Current",
           "items": [
             "Successfully shipped multiple deliverables using the BEAM ecosystem and Elixir",
             "Launched two new mobile applications working with cross-functional teams",
@@ -246,7 +246,8 @@
   ],
   "style": {
     "font": "Noto Sans",
-    "font-size": "12pt",
+    "font-size": "10pt",
+    "slashed-zero": false,
     "header-color": "#000035",
     "divider-color": "#800000"
   }

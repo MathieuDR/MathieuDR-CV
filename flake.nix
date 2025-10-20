@@ -35,7 +35,10 @@
 
       commonArgs = {
         typstSource = "MathieuDeRaedt.typ";
-        fontPaths = [];
+        fontPaths = [
+          "${pkgs.noto-fonts}/share/fonts/truetype"
+          "${pkgs.roboto}/share/fonts/truetype"
+        ];
         virtualPaths = [];
       };
 
