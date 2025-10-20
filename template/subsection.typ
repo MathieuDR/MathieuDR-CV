@@ -81,5 +81,7 @@
 
   if page-break {
     pagebreak()
+  } else {
+    v(0.25em)
   }
 }

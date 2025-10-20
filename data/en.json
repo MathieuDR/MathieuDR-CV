@@ -138,7 +138,7 @@
             "Collaboration on internal projects related to pricing and invoicing of medical performances for health insurances, using Belgian government services",
             "Technologies: ASP.NET MVC, Razor, MSSQL, CSS3, SOAP, WCF"
           ],
-          "page-break": true
+          "page-break": false
         },
         {
           "title": "Internship",
