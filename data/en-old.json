@@ -1,0 +1,196 @@
+{
+  "candidate-name": "Mathieu De Raedt",
+  "job-title": "Senior Software Engineer",
+  "links": [
+    {
+      "display": "mathieu@deraedt.dev",
+      "destination": "mailto:mathieu@deraedt.dev"
+    },
+    {
+      "display": "github.com/MathieuDR",
+      "destination": "https://github.com/mathieudr"
+    },
+    {
+      "display": "linkedin.com/in/mathieuderaedt",
+      "destination": "https://linkedin.com/in/mathieuderaedt"
+    },
+    {
+      "display": "Digital garden",
+      "destination": "https://mathieu.deraedt.dev"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Work Experience",
+      "subsections": [
+        {
+          "title": "Senior Software Engineer",
+          "subtitle": "Plain Concepts",
+          "location": "Remote, Germany",
+          "from": {
+            "year": 2021,
+            "month": 5
+          },
+          "to": {
+            "year": 2023,
+            "month": 4
+          },
+          "text": "As a senior .NET Software Engineer at Plain Concept, I gained experience delivering innovative solutions to clients using a variety of technologies, including .NET, C#, Azure, React, SQL, CosmosDB and other technologies. I was part of a team that partnered with Microsoft to provide innovative solutions and drive digital transformation for our clients."
+        },
+        {
+          "title": "Techincal co-founder",
+          "subtitle": "Srcrr & IUser",
+          "location": "Remote, Germany",
+          "from": {
+            "year": 2020,
+            "month": 10
+          },
+          "to": {
+            "year": 2021,
+            "month": 7
+          },
+          "text": "Working on the start-up of various projects in the legal sector of Belgium. We use new technologies such as Blazor and .NET Core 5 and put special emphasis on learning or using other technologies or concepts like Functional programming, NodeJS, Angular and Typescript."
+        },
+        {
+          "title": "Full Stack .NET Developer & Lead Software Engineer",
+          "subtitle": "Caldr",
+          "location": "Zele, Belgium",
+          "from": {
+            "year": 2020,
+            "month": 1
+          },
+          "to": {
+            "year": 2020,
+            "month": 10
+          },
+          "text": "Caldr is a startup that makes it possible to efficiently and dynamically schedule appointments with care providers, and also facilitates communication between care providers and patients. I started as a Full stack developer but taken over this project from my predecessor as a Lead developer. The latest technologies were used, mainly in the Microsoft Stack: .NET Core, SignalR, MSSQL, VueJS, SASS."
+        },
+        {
+          "title": "Full Stack .NET Developer",
+          "subtitle": "Casius",
+          "location": "Lokeren, Belgium",
+          "from": {
+            "year": 2017,
+            "month": 9
+          },
+          "to": {
+            "year": 2020,
+            "month": 1
+          },
+          "text": "For Casius I contributed in the development of new projects, but I also maintained and updated legacy projects. The technology stack was very broad but the following new technologies were often used: .NET Core 2.1, Entity Framework Core, NUnit, VueJS, SASS, Hangfire, Scrum. The legacy stack existed mainly out of: ASP .NET MVC, Razer, MSSQL & Micro ORM’s"
+        },
+        {
+          "title": "Full Stack .NET Developer",
+          "subtitle": "HumanICT",
+          "location": "Aalst, Belgium",
+          "from": {
+            "year": 2015,
+            "month": 9
+          },
+          "to": {
+            "year": 2017,
+            "month": 9
+          },
+          "text": "I collaborated on internal projects related to pricing and invoicing of medical performances for health insurances, using Belgian government services. The technologies that were mainly used: ASP .NET MVC, Razer, MSSQL, CSS3, SOAP, WCF."
+        },
+        {
+          "title": "Internship",
+          "subtitle": "The Liverpool Office Ltd",
+          "location": "Liverpool, United Kingdom",
+          "from": {
+            "year": 2015,
+            "month": 2
+          },
+          "to": {
+            "year": 2015,
+            "month": 5
+          },
+          "text": "Creating a mobile game in Unity3D."
+        }
+      ]
+    },
+    {
+      "title": "Academic Career",
+      "subsections": [
+        {
+          "title": "Bachelors Degree in Multimedia- and Communication Technology",
+          "subtitle": "Howest Hogeschool West-Vlaanderen",
+          "location": "Kortrijk, Belgium",
+          "from": {
+            "year": 2012
+          },
+          "to": {
+            "year": 2015
+          },
+          "text": "Professional bachelor: Multimedia- and communication technology. Some modules include: .NET programming solutions, Information and system security, Backend web development, frontend web development, Data communication, Mobile APP development, Server Side Advanced, Business applications, Object oriented Programming."
+        },
+        {
+          "title": "TSO 3rd grade Industrial Information and Communication Technology",
+          "subtitle": "V.T.I. Sint-Laurentius",
+          "location": "Lokeren, Belgium",
+          "from": {
+            "year": 2006
+          },
+          "to": {
+            "year": 2012
+          },
+          "text": "Some subjects include: Electronics, High level programming (C#, C++), Low level programming (Assembler), Electricity."
+        }
+      ]
+    },
+    {
+      "title": "Skills",
+      "subsections": [
+        {
+          "title": "Technical",
+          "items": [
+            "Proficient as a full-stack software developer. Including technologies, methodologies and concepts.",
+            "Proficient in backend technologies including ASP.NET, ASP.NET Core and C#.",
+            "Proficient in frontend technologies including HTML5, CSS3 (SCSS), Blazor and JavaScript (Pure, Jquery, VueJS, Angular, Typescript).",
+            "Proficient in Databases and other data storages. (MySQL, MSSQL, Azure storage)",
+            "Familiar in NodeJS Backend technologies including NestJS.",
+            "Familiar in web frameworks, architectures and libraries like Knockout, Gulp and Webpack",
+            "Basic knowledge of developing for android. (Java, Xamarin)",
+            "Basic knowledge of low-level programming. (PIC controllers, Assembler)"
+          ]
+        },
+        {
+          "title": "Languages",
+          "items": {
+            "Dutch": "Mother tongue",
+            "English": "Fluent",
+            "German": "Intermediate"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Interests",
+      "subsections": [
+        {
+          "items": [
+            "I love to develop new projects from scratch, preferably with the latest technologies. Learning new concepts and skills.",
+            "I also have a passion for working with hardware like 3D Printers.",
+            "I’m eager to work on personal projects and to learn new skills, concepts and other technical aspects.",
+            "I enjoy travelling, hiking and am always open to work abroad."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "References",
+      "subsections": [
+        {
+          "text": "Please contact me for reference contact details."
+        }
+      ]
+    }
+  ],
+  "style": {
+    "font": "Noto Sans",
+    "font-size": "10pt",
+    "slashed-zero": false,
+    "header-color": "#000035",
+    "divider-color": "#800000"
+  }
+}

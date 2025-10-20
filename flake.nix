@@ -75,6 +75,7 @@
       # Individual language builds (for nix build .#en)
       builds = {
         en = buildForLanguage "en";
+        en-old = buildForLanguage "en-old";
         de = buildForLanguage "de";
         nl = buildForLanguage "nl";
       };
@@ -82,36 +83,35 @@
       # Build scripts for local use (for nix run .#build-en)
       buildScripts = {
         en = buildScriptFor "en";
+        en-old = buildScriptFor "en-old";
         de = buildScriptFor "de";
         nl = buildScriptFor "nl";
       };
-
-      watch-script = typixLib.watchTypstProject (commonArgs
-        // {
-          typstOpts = {
-            input = ["lang=en"];
-          };
-        });
     in {
       packages = {
         default = builds.en;
         en = builds.en;
+        en-old = builds.en-old;
         de = builds.de;
         nl = builds.nl;
       };
 
       checks = {
         build-en = builds.en;
+        build-en-old = builds.en-old;
         build-de = builds.de;
         build-nl = builds.nl;
       };
 
       apps = rec {
-        default = watch;
+        default = build-en;
 
         # Build commands for each language
         build-en = flake-utils.lib.mkApp {
           drv = buildScripts.en;
+        };
+        build-en-old = flake-utils.lib.mkApp {
+          drv = buildScripts.en-old;
         };
         build-de = flake-utils.lib.mkApp {
           drv = buildScripts.de;
@@ -119,16 +119,11 @@
         build-nl = flake-utils.lib.mkApp {
           drv = buildScripts.nl;
         };
-
-        watch = flake-utils.lib.mkApp {
-          drv = watch-script;
-        };
       };
 
       devShells.default = typixLib.devShell {
         inherit (commonArgs) fontPaths virtualPaths;
         packages = [
-          watch-script
           pkgs.typstfmt
           pkgs.just
           pkgs.entr

@@ -5,6 +5,9 @@ default:
 build-en:
   nix run .#build-en
 
+build-old:
+  nix run .#build-en-old
+
 # Build German resume
 build-de:
   nix run .#build-de
