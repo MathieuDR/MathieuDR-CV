@@ -37,7 +37,6 @@
         typstSource = "MathieuDeRaedt.typ";
         fontPaths = [
           "${pkgs.noto-fonts}/share/fonts/truetype"
-          "${pkgs.roboto}/share/fonts/truetype"
         ];
         virtualPaths = [];
       };
