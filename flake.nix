@@ -131,6 +131,7 @@
           watch-script
           pkgs.typstfmt
           pkgs.just
+          pkgs.entr
         ];
       };
     });
