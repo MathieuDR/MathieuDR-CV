@@ -24,7 +24,7 @@
 
       typixLib = typix.lib.${system};
 
-      variations = ["en" "en-old" "de" "nl"];
+      variations = ["en" "en-new" "en-old" "de" "nl"];
       VERSION = "2025_10";
 
       src = lib.fileset.toSource {

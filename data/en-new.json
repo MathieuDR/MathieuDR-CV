@@ -1,0 +1,280 @@
+{
+  "candidate-name": "Mathieu De Raedt",
+  "job-title": "Senior Software Engineer",
+  "links": [
+    {
+      "display": "mathieu@deraedt.dev",
+      "destination": "mailto:mathieu@deraedt.dev"
+    },
+    {
+      "display": "github.com/MathieuDR",
+      "destination": "https://github.com/mathieudr"
+    },
+    {
+      "display": "linkedin.com/in/mathieuderaedt",
+      "destination": "https://linkedin.com/in/mathieuderaedt"
+    },
+    {
+      "display": "Digital garden",
+      "destination": "https://mathieu.deraedt.dev"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Summary",
+      "text": "Senior Software Engineer with 8 years of professional experience specializing in Elixir and functional programming. Currently serving as the most senior engineer on a ~10-person team, leading architectural decisions and technical direction. Passionate about maintainable systems, event sourcing, and BEAM ecosystem. Proven track record delivering robust solutions across distributed teams while mentoring engineers and driving technical excellence."
+    },
+    {
+      "title": "Work Experience",
+      "subsections": [
+        {
+          "title": "Senior Backend Engineer, Elixir",
+          "subtitle": "7Mind (acquired by 7NXT, Dec 2023)",
+          "location": "Remote, Germany",
+          "from": {
+            "year": 2023,
+            "month": 5
+          },
+          "to": "Current",
+          "items": [
+            "Assumed technical leadership as most senior engineer following departure of staff/principal engineers, guiding architectural decisions and technical direction for 10-person engineering team",
+            "Led architectural transformation from distributed microservices to maintainable modulith, reducing operational complexity and improving system reliability across prevention subscription and ZPP certificate services",
+            "Designed and implemented event sourcing patterns with CQRS for core business domains, establishing patterns for aggregate design, command handlers, and event-driven workflows",
+            "Drove adoption of OTP design patterns across the team, implementing robust supervision trees and leveraging GenServer, GenStage, and GenStatem for fault-tolerant systems",
+            "Delivered two new mobile applications from backend inception, coordinating with product, iOS, and Android teams to establish API contracts and integration patterns",
+            "Established team processes and ceremonies based on Shape Up methodology, improving cross-squad alignment and delivery predictability",
+            "Architected integrations with Contentful CMS, Algolia search indexing, Braze marketing automation, and third-party payment systems",
+            "Maintained and evolved Kubernetes infrastructure on GKE, managing Strimzi Kafka operators, Redis clusters, and observability tooling",
+            "Technologies: Elixir, Phoenix, Phoenix LiveView, Ecto, OTP, Event Sourcing, Docker, Kubernetes, Terraform, ArgoCD, Kafka, Redis, PostgreSQL, AWS, Google Cloud, Contentful, Algolia, Braze"
+          ]
+        },
+        {
+          "title": "Senior Software Engineer",
+          "subtitle": "Plain Concepts",
+          "location": "Remote, Germany",
+          "from": {
+            "year": 2021,
+            "month": 5
+          },
+          "to": {
+            "year": 2023,
+            "month": 4
+          },
+          "items": [
+            "Delivered end-to-end technical solutions for enterprise clients in collaboration with Microsoft, focusing on cloud-native architectures and digital transformation initiatives",
+            "Provided technical mentorship to junior engineers, conducting code reviews and establishing best practices for .NET development",
+            "Architected and executed microservice migrations, designing service boundaries and implementing resilient communication patterns",
+            "Led technical discovery and estimation for client projects, translating business requirements into scalable technical solutions",
+            "Technologies: .NET, C#, Azure, React, SQL Server, Docker, Kubernetes, CosmosDB, Azure Functions, Salesforce integrations"
+          ]
+        },
+        {
+          "title": "Product Developer",
+          "subtitle": "Legal Tech Venture (Srcrr & IUser)",
+          "location": "Remote, Germany",
+          "from": {
+            "year": 2020,
+            "month": 10
+          },
+          "to": {
+            "year": 2021,
+            "month": 1
+          },
+          "items": [
+            "Led technical development for exploratory legal-tech product concepts targeting the Belgian legal sector",
+            "Built proof-of-concept data aggregation and consolidation systems as sole technical contributor",
+            "Explored modern tech stack including Blazor, .NET 5, functional programming patterns, NodeJS, Angular, and TypeScript",
+            "Validated technical feasibility for multiple product ideas while partner pursued market validation"
+          ],
+          "page-break": true
+        },
+        {
+          "title": "Full Stack .NET Developer & Lead Software Engineer",
+          "subtitle": "Caldr",
+          "location": "Zele, Belgium",
+          "from": {
+            "year": 2020,
+            "month": 1
+          },
+          "to": {
+            "year": 2020,
+            "month": 10
+          },
+          "items": [
+            "Promoted to Lead Developer, taking ownership of healthcare scheduling platform connecting care providers and patients",
+            "Implemented real-time communication features using SignalR for appointment scheduling and patient messaging",
+            "Established development standards and deployment processes for early-stage startup",
+            "Technologies: .NET Core, SignalR, MSSQL, Vue.js, SASS"
+          ]
+        },
+        {
+          "title": "Full Stack .NET Developer",
+          "subtitle": "Casius",
+          "location": "Lokeren, Belgium",
+          "from": {
+            "year": 2017,
+            "month": 9
+          },
+          "to": {
+            "year": 2020,
+            "month": 1
+          },
+          "items": [
+            "Developed new features and maintained legacy systems for business application suite",
+            "Modernized legacy ASP.NET applications, migrating to .NET Core and implementing CI/CD practices",
+            "Technologies: .NET Core 2.1, Entity Framework Core, NUnit, Vue.js, SASS, Hangfire, MSSQL"
+          ]
+        },
+        {
+          "title": "Full Stack .NET Developer",
+          "subtitle": "HumanICT",
+          "location": "Aalst, Belgium",
+          "from": {
+            "year": 2015,
+            "month": 9
+          },
+          "to": {
+            "year": 2017,
+            "month": 9
+          },
+          "items": [
+            "Built pricing and invoicing systems for health insurance providers, integrating with Belgian government services",
+            "Implemented SOAP web service integrations for medical performance data exchange",
+            "Technologies: ASP.NET MVC, Razor, MSSQL, CSS3, SOAP, WCF"
+          ],
+          "page-break": false
+        },
+        {
+          "title": "Internship",
+          "subtitle": "The Liverpool Office Ltd",
+          "location": "Liverpool, United Kingdom",
+          "from": {
+            "year": 2015,
+            "month": 2
+          },
+          "to": {
+            "year": 2015,
+            "month": 5
+          },
+          "text": "Developed mobile game in Unity3D from concept to completion as bachelor's internship project"
+        }
+      ]
+    },
+    {
+      "title": "Academic Career",
+      "subsections": [
+        {
+          "title": "Bachelor's Degree in Multimedia & Communication Technology",
+          "subtitle": "Howest Hogeschool West-Vlaanderen",
+          "location": "Kortrijk, Belgium",
+          "from": {
+            "year": 2012
+          },
+          "to": {
+            "year": 2015
+          },
+          "text": "Comprehensive program combining programming, web development, and communication technologies with hands-on projects. Focus on full-stack development, object-oriented programming, and modern web technologies."
+        },
+        {
+          "title": "TSO 3rd Grade Industrial Information & Communication Technology",
+          "subtitle": "V.T.I. Sint-Laurentius",
+          "location": "Lokeren, Belgium",
+          "from": {
+            "year": 2006
+          },
+          "to": {
+            "year": 2012
+          },
+          "text": "Technical secondary education providing foundations in electronics, programming (C#, C++, Assembly), and electrical systems.",
+          "page-break": true
+        }
+      ]
+    },
+    {
+      "title": "Skill highlights",
+      "subsections": [
+        {
+          "title": "Technical Expertise",
+          "items": {
+            "Languages & Frameworks": "Elixir, Phoenix, LiveView, OTP, C#, .NET Core, Node.js",
+            "Architecture Patterns": "Event Sourcing, CQRS, Microservices, Modular Monoliths, Domain-Driven Design",
+            "Infrastructure & DevOps": "Kubernetes, Docker, Terraform, ArgoCD, Nix, NixOS, Linux",
+            "Databases & Messaging": "PostgreSQL, MSSQL, Redis, Kafka (Strimzi), Event Stores",
+            "Cloud Platforms": "Google Cloud Platform, AWS, Microsoft Azure"
+          }
+        },
+        {
+          "title": "Languages",
+          "items": {
+            "Dutch": "Native",
+            "English": "Fluent",
+            "German": "Professional Working Proficiency"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Technical Expertise",
+      "subsections": [
+        {
+          "items": {
+            "Languages & Frameworks": "Elixir, Phoenix, LiveView, OTP, C#, .NET Core, Node.js",
+            "Architecture Patterns": "Event Sourcing, CQRS, Microservices, Modular Monoliths, Domain-Driven Design",
+            "Infrastructure & DevOps": "Kubernetes, Docker, Terraform, ArgoCD, Nix, NixOS, Linux",
+            "Databases & Messaging": "PostgreSQL, MSSQL, Redis, Kafka (Strimzi), Event Stores",
+            "Cloud Platforms": "Google Cloud Platform, AWS, Microsoft Azure"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Languages",
+      "subsections": [
+        {
+          "items": {
+            "Dutch": "Native",
+            "English": "Fluent",
+            "German": "Professional Working Proficiency"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Selected Projects",
+      "subsections": [
+        {
+          "title": "Digital Garden",
+          "url": "https://mathieu.deraedt.dev",
+          "subtitle": "Personal knowledge base using Zettelkasten methodology for atomic notes and interconnected concepts",
+          "items": []
+        },
+        {
+          "title": "Nix Infrastructure",
+          "url": "https://mathieu.deraedt.dev/output/pages/1746442167-current-projects",
+          "subtitle": "Declarative system configurations for servers, workstations, and development environments using Nix",
+          "items": []
+        },
+        {
+          "title": "Readdeck Highlight Exporter",
+          "subtitle": "Automated pipeline exporting web article highlights into personal knowledge management system",
+          "items": []
+        }
+      ]
+    },
+    {
+      "title": "References",
+      "subsections": [
+        {
+          "text": "Available upon request"
+        }
+      ]
+    }
+  ],
+  "style": {
+    "font": "Noto Sans",
+    "font-size": "10pt",
+    "slashed-zero": false,
+    "header-color": "#000035",
+    "divider-color": "#800000"
+  }
+}
