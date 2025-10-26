@@ -58,7 +58,7 @@
   }
 
   if (cells.len() != 0) {
-    grid(columns: (1fr, 1fr), row-gutter: 4pt, ..cells)
+    grid(columns: (1fr, auto), column-gutter: 1em, row-gutter: 4pt, ..cells)
   }
 
   if (type(text) == str) {
