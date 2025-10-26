@@ -42,7 +42,7 @@
             "Strengthened engineering culture by establishing a book club, actively shaping technical demo processes and taking over coordination for other established ceremonies after senior departure",
             "Improved team processes by introducing new methodologies and facilitating cross-squad alignment and doing \"glue work\"",
             "Contributed to the delivery of a new modular monolith backend, improving maintainability and reducing complexity across the platform",
-            "Maintained production Kubernetes infrastructure, legacy codebase and new monolith ensuring stability and observability during major architectural transitions",
+            "Maintained production Kubernetes infrastructure, legacy codebase and new monolith ensuring stability and observability during major architectural transition",
             "Enhanced observability through Datadog integration, structured logging, health checks and synthetic monitoring",
             "Supported successful launches of 2 mobile applications as part of the backend squad, coordinating across product and mobile teams",
             "Technologies: Elixir, Phoenix, Ecto, Typespec, Docker, Kubernetes, Nix, AWS, Google Cloud, Rudderstack, Algolia & Contentful"
@@ -62,7 +62,7 @@
           },
           "items": [
             "Delivered end-to-end technical solutions for enterprise clients in collaboration with Microsoft, focusing on cloud-native architectures and digital transformation initiatives",
-            "Architected and executed microservice migrations, designing service boundaries and implementing resilient communication patterns",
+            "Architected and executed microservice migrations, designing service boundaries and implementing resilient solutions",
             "Led technical discovery and estimation for client projects, translating business requirements into scalable technical solutions",
             "Participated in exploratory and sales meetings with prospective clients, contributing technical expertise to project scoping and proposals",
             "Provided technical mentorship to junior engineers, conducting code reviews and establishing best practices for .NET development",
