@@ -18,7 +18,7 @@
 
   line()
   if (type(text) == str) {
-    eval(text, mode: "markup")
+   [#text]
   }
 
   if( subsections.len() > 0){

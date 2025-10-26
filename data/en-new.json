@@ -22,14 +22,14 @@
   "sections": [
     {
       "title": "Summary",
-      "text": "Senior Software Engineer with 8 years of professional experience specializing in Elixir and functional programming. Currently serving as the most senior engineer on a ~10-person team, leading architectural decisions and technical direction. Passionate about maintainable systems, event sourcing, and BEAM ecosystem. Proven track record delivering robust solutions across distributed teams while mentoring engineers and driving technical excellence."
+      "text": "Senior Software Engineer with 10 years of professional experience in both Elixir and C#. Currently serving as the most senior engineer in a ~10 person team, leading architectural decisions and technical direction whilst mentoring and accelerating colleagues. Passionate about maintainable systems, keeping things \"delightfully boring.\" Obsessed with Linux, Nix, and atomic note-taking. Proven track record delivering simple, robust solutions."
     },
     {
       "title": "Work Experience",
       "subsections": [
         {
           "title": "Senior Backend Engineer, Elixir",
-          "subtitle": "7Mind (acquired by 7NXT, Dec 2023)",
+          "subtitle": "7Mind (acquired by 7NXT)",
           "location": "Remote, Germany",
           "from": {
             "year": 2023,
@@ -37,15 +37,15 @@
           },
           "to": "Current",
           "items": [
-            "Assumed technical leadership as most senior engineer following departure of staff/principal engineers, guiding architectural decisions and technical direction for 10-person engineering team",
-            "Led architectural transformation from distributed microservices to maintainable modulith, reducing operational complexity and improving system reliability across prevention subscription and ZPP certificate services",
-            "Designed and implemented event sourcing patterns with CQRS for core business domains, establishing patterns for aggregate design, command handlers, and event-driven workflows",
-            "Drove adoption of OTP design patterns across the team, implementing robust supervision trees and leveraging GenServer, GenStage, and GenStatem for fault-tolerant systems",
-            "Delivered two new mobile applications from backend inception, coordinating with product, iOS, and Android teams to establish API contracts and integration patterns",
-            "Established team processes and ceremonies based on Shape Up methodology, improving cross-squad alignment and delivery predictability",
-            "Architected integrations with Contentful CMS, Algolia search indexing, Braze marketing automation, and third-party payment systems",
-            "Maintained and evolved Kubernetes infrastructure on GKE, managing Strimzi Kafka operators, Redis clusters, and observability tooling",
-            "Technologies: Elixir, Phoenix, Phoenix LiveView, Ecto, OTP, Event Sourcing, Docker, Kubernetes, Terraform, ArgoCD, Kafka, Redis, PostgreSQL, AWS, Google Cloud, Contentful, Algolia, Braze"
+            "Stepped into Staff Engineering responsibilities following departure of senior technical leadership, driving architectural decisions and technical strategy across the product team",
+            "Leading decommissioning of legacy microservices, coordinating cross-team dependencies and migration paths while ensuring service continuity during the sunset process",
+            "Strengthened engineering culture by establishing a book club, actively shaping technical demo processes and taking over coordination for other established ceremonies after senior departure",
+            "Improved team processes by introducing new methodologies and facilitating cross-squad alignment and doing \"glue work\"",
+            "Contributed to the delivery of a new modular monolith backend, improving maintainability and reducing complexity across the platform",
+            "Maintained production Kubernetes infrastructure, legacy codebase and new monolith ensuring stability and observability during major architectural transitions",
+            "Enhanced observability through Datadog integration, structured logging, health checks and synthetic monitoring",
+            "Supported successful launches of 2 mobile applications as part of the backend squad, coordinating across product and mobile teams",
+            "Technologies: Elixir, Phoenix, Ecto, Typespec, Docker, Kubernetes, Nix, AWS, Google Cloud, Rudderstack, Algolia & Contentful"
           ]
         },
         {
@@ -62,15 +62,16 @@
           },
           "items": [
             "Delivered end-to-end technical solutions for enterprise clients in collaboration with Microsoft, focusing on cloud-native architectures and digital transformation initiatives",
-            "Provided technical mentorship to junior engineers, conducting code reviews and establishing best practices for .NET development",
             "Architected and executed microservice migrations, designing service boundaries and implementing resilient communication patterns",
             "Led technical discovery and estimation for client projects, translating business requirements into scalable technical solutions",
-            "Technologies: .NET, C#, Azure, React, SQL Server, Docker, Kubernetes, CosmosDB, Azure Functions, Salesforce integrations"
+            "Participated in exploratory and sales meetings with prospective clients, contributing technical expertise to project scoping and proposals",
+            "Provided technical mentorship to junior engineers, conducting code reviews and establishing best practices for .NET development",
+            "Technologies: .NET, C#, Entity framework, Azure, React, SQL, Docker, Kubernetes, CosmosDB, Azure Cloud, Salesforce"
           ]
         },
         {
           "title": "Product Developer",
-          "subtitle": "Legal Tech Venture (Srcrr & IUser)",
+          "subtitle": "Legal Tech Venture",
           "location": "Remote, Germany",
           "from": {
             "year": 2020,
@@ -83,10 +84,8 @@
           "items": [
             "Led technical development for exploratory legal-tech product concepts targeting the Belgian legal sector",
             "Built proof-of-concept data aggregation and consolidation systems as sole technical contributor",
-            "Explored modern tech stack including Blazor, .NET 5, functional programming patterns, NodeJS, Angular, and TypeScript",
             "Validated technical feasibility for multiple product ideas while partner pursued market validation"
-          ],
-          "page-break": true
+          ]
         },
         {
           "title": "Full Stack .NET Developer & Lead Software Engineer",
@@ -101,10 +100,9 @@
             "month": 10
           },
           "items": [
-            "Promoted to Lead Developer, taking ownership of healthcare scheduling platform connecting care providers and patients",
-            "Implemented real-time communication features using SignalR for appointment scheduling and patient messaging",
-            "Established development standards and deployment processes for early-stage startup",
-            "Technologies: .NET Core, SignalR, MSSQL, Vue.js, SASS"
+            "Assumed Lead Developer role after departure of Technical Founder, taking ownership of healthcare scheduling platform connecting care providers and patients",
+            "Implemented real-time communication features using SignalR for appointment scheduling and patient messaging in healthcare domain",
+            "Established development standards and deployment processes for early-stage startup"
           ]
         },
         {
@@ -120,14 +118,13 @@
             "month": 1
           },
           "items": [
-            "Developed new features and maintained legacy systems for business application suite",
-            "Modernized legacy ASP.NET applications, migrating to .NET Core and implementing CI/CD practices",
-            "Technologies: .NET Core 2.1, Entity Framework Core, NUnit, Vue.js, SASS, Hangfire, MSSQL"
+            "Took ownership and led a new greenfield project from concept to launch",
+            "Developed new features and maintained legacy systems for business application suite and modernized legacy ASP.NET applications while implementing CI/CD practices"
           ]
         },
         {
           "title": "Full Stack .NET Developer",
-          "subtitle": "HumanICT",
+          "subtitle": "HumanICT (Acquired by TDM3)",
           "location": "Aalst, Belgium",
           "from": {
             "year": 2015,
@@ -137,12 +134,7 @@
             "year": 2017,
             "month": 9
           },
-          "items": [
-            "Built pricing and invoicing systems for health insurance providers, integrating with Belgian government services",
-            "Implemented SOAP web service integrations for medical performance data exchange",
-            "Technologies: ASP.NET MVC, Razor, MSSQL, CSS3, SOAP, WCF"
-          ],
-          "page-break": false
+          "text": "Built pricing and invoicing systems for health insurance providers, integrating with Belgian government services using SOAP and ASP.NET"
         },
         {
           "title": "Internship",
@@ -161,7 +153,7 @@
       ]
     },
     {
-      "title": "Academic Career",
+      "title": "Education",
       "subsections": [
         {
           "title": "Bachelor's Degree in Multimedia & Communication Technology",
@@ -185,44 +177,21 @@
           "to": {
             "year": 2012
           },
-          "text": "Technical secondary education providing foundations in electronics, programming (C#, C++, Assembly), and electrical systems.",
-          "page-break": true
+          "text": "Technical secondary education providing foundations in electronics, programming (C#, C++, Assembly), and electrical systems."
         }
       ]
     },
     {
-      "title": "Skill highlights",
-      "subsections": [
-        {
-          "title": "Technical Expertise",
-          "items": {
-            "Languages & Frameworks": "Elixir, Phoenix, LiveView, OTP, C#, .NET Core, Node.js",
-            "Architecture Patterns": "Event Sourcing, CQRS, Microservices, Modular Monoliths, Domain-Driven Design",
-            "Infrastructure & DevOps": "Kubernetes, Docker, Terraform, ArgoCD, Nix, NixOS, Linux",
-            "Databases & Messaging": "PostgreSQL, MSSQL, Redis, Kafka (Strimzi), Event Stores",
-            "Cloud Platforms": "Google Cloud Platform, AWS, Microsoft Azure"
-          }
-        },
-        {
-          "title": "Languages",
-          "items": {
-            "Dutch": "Native",
-            "English": "Fluent",
-            "German": "Professional Working Proficiency"
-          }
-        }
-      ]
-    },
-    {
-      "title": "Technical Expertise",
+      "title": "Technical Skills & Expertise",
       "subsections": [
         {
           "items": {
-            "Languages & Frameworks": "Elixir, Phoenix, LiveView, OTP, C#, .NET Core, Node.js",
-            "Architecture Patterns": "Event Sourcing, CQRS, Microservices, Modular Monoliths, Domain-Driven Design",
+            "Languages & Frameworks": "Elixir, Phoenix, LiveView, Ecto, OTP, C#, .NET Core, Entity Framework, Node.js, React",
+            "Architecture Patterns": "Event Sourcing, CQRS, Microservices, Modular Monoliths, Domain-Driven Design, Specification By Example",
             "Infrastructure & DevOps": "Kubernetes, Docker, Terraform, ArgoCD, Nix, NixOS, Linux",
-            "Databases & Messaging": "PostgreSQL, MSSQL, Redis, Kafka (Strimzi), Event Stores",
-            "Cloud Platforms": "Google Cloud Platform, AWS, Microsoft Azure"
+            "Databases & Messaging": "PostgreSQL, MSSQL, CosmosDB, Redis, Event Stores",
+            "Cloud Platforms": "Google Cloud Platform, Amazon Web Services (AWS), Microsoft Azure",
+            "Integrations": "Rudderstack, Algolia, Contentful, Datadog, Salesforce"
           }
         }
       ]
@@ -240,7 +209,7 @@
       ]
     },
     {
-      "title": "Selected Projects",
+      "title": "Personal Projects",
       "subsections": [
         {
           "title": "Digital Garden",
@@ -256,16 +225,8 @@
         },
         {
           "title": "Readdeck Highlight Exporter",
-          "subtitle": "Automated pipeline exporting web article highlights into personal knowledge management system",
+          "subtitle": "Automated pipeline exporting web article highlights to personal knowledge management system",
           "items": []
-        }
-      ]
-    },
-    {
-      "title": "References",
-      "subsections": [
-        {
-          "text": "Available upon request"
         }
       ]
     }
