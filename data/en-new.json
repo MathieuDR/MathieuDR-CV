@@ -22,7 +22,7 @@
   "sections": [
     {
       "title": "Summary",
-      "text": "Senior Software Engineer with 10 years of professional experience in both Elixir and C#. Currently serving as the most senior engineer in a ~10 person team, leading architectural decisions and technical direction whilst mentoring and accelerating colleagues. Passionate about maintainable systems, keeping things \"delightfully boring.\" Obsessed with Linux, Nix, and atomic note-taking. Proven track record delivering simple, robust solutions."
+      "text": "Senior Software Engineer with 10 years of combined professional experience in Elixir and C#. Currently serving as the most senior engineer in a ~10 person team, leading architectural decisions and technical direction whilst mentoring and accelerating colleagues. Passionate about maintainable systems, keeping things \"delightfully boring.\" Obsessed with Linux, Nix, and atomic note-taking. Proven track record delivering simple, robust solutions."
     },
     {
       "title": "Work Experience",
@@ -62,7 +62,7 @@
           },
           "items": [
             "Delivered end-to-end technical solutions for enterprise clients in collaboration with Microsoft, focusing on cloud-native architectures and digital transformation initiatives",
-            "Architected and executed microservice migrations, designing service boundaries and implementing resilient solutions",
+            "Migrated and expanded microservice architecture and redesigning service boundaries",
             "Led technical discovery and estimation for client projects, translating business requirements into scalable technical solutions",
             "Participated in exploratory and sales meetings with prospective clients, contributing technical expertise to project scoping and proposals",
             "Provided technical mentorship to junior engineers, conducting code reviews and establishing best practices for .NET development",
@@ -210,7 +210,8 @@
     "font": "Noto Sans",
     "font-size": "10pt",
     "slashed-zero": false,
+    "text-color": "#000000",
     "header-color": "#000035",
-    "divider-color": "#800000"
+    "divider-color": "#d20f39"
   }
 }

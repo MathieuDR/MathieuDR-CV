@@ -33,15 +33,16 @@
   /// -> dictionary
   style: (:),
 ) = {
+  let text-color = value-or-default(style, "text-color", color.black.to-hex())
   let header-color = value-or-default(style, "header-color", color.black.to-hex())
   let divider-color = value-or-default(style, "divider-color", color.black.to-hex())
   let link-color = value-or-default(style, "link-color", color.navy.to-hex())
   let font = value-or-default(style, "font", "Noto Sans")
   let size = eval(value-or-default(style, "font-size", "9pt"))
-  let slashed_zero = value-or-default(style, "zero_slashed", true)
+  let slashed_zero = value-or-default(style, "slashed-zero", true)
 
   set document(author: candidate-name, title: [#candidate-name $dash.em$ #job-title])
-  set text(font: font, ligatures: false, size: size, slashed-zero: slashed_zero)
+  set text(font: font, ligatures: false, size: size, slashed-zero: slashed_zero, fill: rgb(text-color))
   set line(length: 100%, stroke: 1pt + rgb(divider-color))
   set page(paper: "a4", margin: 0.75in)
   show heading: it => [ #set text(fill: rgb(header-color)); #it ]
