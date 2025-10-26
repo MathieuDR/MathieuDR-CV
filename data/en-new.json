@@ -70,24 +70,6 @@
           ]
         },
         {
-          "title": "Product Developer",
-          "subtitle": "Legal Tech Venture",
-          "location": "Remote, Germany",
-          "from": {
-            "year": 2020,
-            "month": 10
-          },
-          "to": {
-            "year": 2021,
-            "month": 1
-          },
-          "items": [
-            "Led technical development for exploratory legal-tech product concepts targeting the Belgian legal sector",
-            "Built proof-of-concept data aggregation and consolidation systems as sole technical contributor",
-            "Validated technical feasibility for multiple product ideas while partner pursued market validation"
-          ]
-        },
-        {
           "title": "Full Stack .NET Developer & Lead Software Engineer",
           "subtitle": "Caldr",
           "location": "Zele, Belgium",
@@ -100,10 +82,11 @@
             "month": 10
           },
           "items": [
-            "Assumed Lead Developer role after departure of Technical Founder, taking ownership of healthcare scheduling platform connecting care providers and patients",
+            "Assumed Lead Developer role following Technical Founder's departure, taking ownership of healthcare scheduling platform connecting care providers and patients",
             "Implemented real-time communication features using SignalR for appointment scheduling and patient messaging in healthcare domain",
             "Established development standards and deployment processes for early-stage startup"
-          ]
+          ],
+          "page-break": true
         },
         {
           "title": "Full Stack .NET Developer",
@@ -117,10 +100,7 @@
             "year": 2020,
             "month": 1
           },
-          "items": [
-            "Took ownership and led a new greenfield project from concept to launch",
-            "Developed new features and maintained legacy systems for business application suite and modernized legacy ASP.NET applications while implementing CI/CD practices"
-          ]
+          "text": "Modernizing legacy ASP.NET applications and implemented practices like CI/CD and test suites while developing new features and maintaining legacy systems"
         },
         {
           "title": "Full Stack .NET Developer",
@@ -135,7 +115,12 @@
             "month": 9
           },
           "text": "Built pricing and invoicing systems for health insurance providers, integrating with Belgian government services using SOAP and ASP.NET"
-        },
+        }
+      ]
+    },
+    {
+      "title": "Education",
+      "subsections": [
         {
           "title": "Internship",
           "subtitle": "The Liverpool Office Ltd",
@@ -147,14 +132,8 @@
           "to": {
             "year": 2015,
             "month": 5
-          },
-          "text": "Developed mobile game in Unity3D from concept to completion as bachelor's internship project"
-        }
-      ]
-    },
-    {
-      "title": "Education",
-      "subsections": [
+          }
+        },
         {
           "title": "Bachelor's Degree in Multimedia & Communication Technology",
           "subtitle": "Howest Hogeschool West-Vlaanderen",
@@ -164,8 +143,7 @@
           },
           "to": {
             "year": 2015
-          },
-          "text": "Comprehensive program combining programming, web development, and communication technologies with hands-on projects. Focus on full-stack development, object-oriented programming, and modern web technologies."
+          }
         },
         {
           "title": "TSO 3rd Grade Industrial Information & Communication Technology",
@@ -176,8 +154,7 @@
           },
           "to": {
             "year": 2012
-          },
-          "text": "Technical secondary education providing foundations in electronics, programming (C#, C++, Assembly), and electrical systems."
+          }
         }
       ]
     },
@@ -214,19 +191,17 @@
         {
           "title": "Digital Garden",
           "url": "https://mathieu.deraedt.dev",
-          "subtitle": "Personal knowledge base using Zettelkasten methodology for atomic notes and interconnected concepts",
-          "items": []
+          "subtitle": "Personal knowledge base using Zettelkasten methodology for atomic notes and interconnected concepts"
         },
         {
           "title": "Nix Infrastructure",
           "url": "https://mathieu.deraedt.dev/output/pages/1746442167-current-projects",
-          "subtitle": "Declarative system configurations for servers, workstations, and development environments using Nix",
-          "items": []
+          "subtitle": "Declarative system configurations for servers, workstations, and development environments using Nix"
         },
         {
           "title": "Readdeck Highlight Exporter",
           "subtitle": "Automated pipeline exporting web article highlights to personal knowledge management system",
-          "items": []
+          "url": "https://mathieu.deraedt.dev/output/projects/1747124404-readdeck-highlight-exporter"
         }
       ]
     }
