@@ -1,5 +1,5 @@
-# Available targets: en, en-new, en-old, de, nl
-targets := "en en-new en-old de nl"
+# Available targets: en, de, nl
+targets := "en de nl"
 
 default:
   @just --choose
