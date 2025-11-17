@@ -46,7 +46,7 @@
             "Maintained production Kubernetes infrastructure, legacy codebase and new monolith ensuring stability and observability during major architectural transition",
             "Enhanced observability through Datadog integration, structured logging, health checks and synthetic monitoring",
             "Supported successful launches of 2 mobile applications as part of the backend squad, coordinating across product and mobile teams",
-            "Technologies: Elixir, Phoenix, Ecto, Typespec, Docker, Kubernetes, Terraform, AWS, Google Cloud, Rudderstack, Algolia & Contentful"
+            "Technologies: Elixir, Phoenix, LiveView, Ecto, PostgreSQL, Typespec, Docker, Kubernetes, Terraform, AWS, Google Cloud, Rudderstack, Algolia & Contentful"
           ]
         },
         {
@@ -164,9 +164,9 @@
       "subsections": [
         {
           "items": {
-            "Languages & Frameworks": "Elixir, Phoenix, LiveView, Ecto, OTP, C#, .NET Core, Entity Framework, Node.js, React",
+            "Languages & Frameworks": "Elixir, Phoenix, LiveView, Ecto, OTP, C#, .NET Core, Entity Framework, Node.JS, React",
             "Architecture Patterns": "Event Sourcing, CQRS, Microservices, Modular Monoliths, Domain-Driven Design, Specification By Example",
-            "Infrastructure & DevOps": "Kubernetes, Docker, Terraform, ArgoCD, Nix, NixOS, Linux",
+            "Infrastructure & DevOps": "Kubernetes, Docker, Terraform, Nix & NixOS, Linux",
             "Databases & Messaging": "PostgreSQL, MSSQL, CosmosDB, Redis, Event Stores",
             "Cloud Platforms": "Google Cloud Platform, Amazon Web Services (AWS), Microsoft Azure",
             "Integrations": "Rudderstack, Algolia, Contentful, Datadog, Salesforce"
